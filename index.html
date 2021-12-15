@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuláriods</title>
+    <style type="text/css">
+h1, h2, h3, p {
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    height: 1300px;
+    margin: auto;
+}
+.form { 
+    text-align: center;
+    padding: 10px;
+    border: solid 2px;
+}
+    </style>
+</head>
+<body>
+    <h1> Cálculo de idade</h1>
+    <div class="container">
+        <form class="form" action="registro2.php" method="post">
+            <h3>Digite o ano do seu nacimento:</h3>
+            <p>
+                <label for="anonasc">Ano:</label>
+                <input type="number" name="anonasc" id="anonasc" />
+            </p>
+    
+            <p>
+                <input type="submit" value="Calcular" />
+            </p>
+        </form>
+    </div>
+    
+</body>
+</html>
